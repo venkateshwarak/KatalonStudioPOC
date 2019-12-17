@@ -16,11 +16,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://pxl-awe-dvt-mapweb-ui-teamo-ft.azurewebsites.net/')
 
 WebUI.navigateToUrl('https://pxl-awe-dvt-mapweb-ui-teamo-ft.azurewebsites.net/')
 
-WebUI.click(findTestObject('Object Repository/MAPsLogin/Page_GTS-PAA/span_'))
+not_run: WebUI.click(findTestObject('Object Repository/MAPsLogin/Page_GTS-PAA/span_'))
 
 WebUI.click(findTestObject('Object Repository/MAPsLogin/Page_GTS-PAA/button_Corporate Log In'))
 
@@ -38,6 +38,8 @@ WebUI.click(findTestObject('Object Repository/MAPsLogin/Page_Sign in to your acc
 WebUI.click(findTestObject('Object Repository/MAPsLogin/Page_Sign in to your account/input_Sign in_idSIButton9'))
 
 WebUI.click(findTestObject('Object Repository/MAPsLogin/Page_GTS - PAA - Dashboard/button_Got it'))
+
+WebUI.verifyElementPresent(findTestObject('MAPsLogin/Page_GTS - PAA - Dashboard/span_Dashboard'), 0)
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-17T15:42:54</date>
+  <millis>1576577574511</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Login/LoginChrome</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">LoginChrome</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Login/LoginChrome</property>
+</record>
+<record>
+  <date>2019-12-17T15:42:54</date>
+  <millis>1576577574544</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = KayyalV - HYD003686.pii.pxl.int</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">KayyalV - HYD003686.pii.pxl.int</property>
+</record>
+<record>
+  <date>2019-12-17T15:42:54</date>
+  <millis>1576577574547</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-12-17T15:42:54</date>
+  <millis>1576577574551</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 172.28.105.30</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">172.28.105.30</property>
+</record>
+<record>
+  <date>2019-12-17T15:42:54</date>
+  <millis>1576577574555</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = null.null</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">null.null</property>
+</record>
+<record>
+  <date>2019-12-17T15:42:55</date>
+  <millis>1576577575080</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/MAPs/LogIn</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/MAPs/LogIn</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/MAPs/LogIn</property>
+  <property name="source">C:\\Users\\KayyalV\\git\\KatalonStudioPOC\\KatalonStudioPOC\\Test Cases\\MAPs\\LogIn.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>

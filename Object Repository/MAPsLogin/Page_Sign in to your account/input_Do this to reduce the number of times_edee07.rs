@@ -6,8 +6,16 @@
    <elementGuidId>6cdb0173-d3c7-4a43-be18-330b66b74c66</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'KmsiCheckboxField' and @name = 'DontShowAgain' and @type = 'checkbox']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='KmsiCheckboxField']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

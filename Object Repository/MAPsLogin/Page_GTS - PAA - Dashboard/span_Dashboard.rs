@@ -6,14 +6,18 @@
    <elementGuidId>d80e63c5-6eb3-4cb0-8a5c-8fb7d29f0656</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Dashboard' or . = 'Dashboard')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//bread-crumb[@id='dashboard-bread-crumb']/span[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

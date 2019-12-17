@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>LogInNew</name>
+   <name>LoginIE</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f4feba25-ca8b-4b24-b15c-0ae77a76899b</testCaseGuid>
+   <testCaseGuid>f5994701-5708-46d3-bfea-df8cb832b32f</testCaseGuid>
 </TestCaseEntity>

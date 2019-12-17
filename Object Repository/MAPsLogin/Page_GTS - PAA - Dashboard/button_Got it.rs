@@ -6,14 +6,22 @@
    <elementGuidId>c929bc8d-a0df-4607-b434-00d77d29aada</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = '
+            Got it
+        ' or . = '
+            Got it
+        ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//button[@type='button']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

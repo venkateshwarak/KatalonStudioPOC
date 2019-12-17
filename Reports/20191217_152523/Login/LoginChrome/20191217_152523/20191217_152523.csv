@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LoginChrome,Chrome 78.0.3904.108,,,2019-12-17 15:25:25,2019-12-17 15:25:55,29.110s,PASSED
+,,,,,,,
+Test Cases/MAPs/LogIn,Chrome 78.0.3904.108,,,2019-12-17 15:25:26,2019-12-17 15:25:55,28.728s,PASSED
+"openBrowser(""https://pxl-awe-dvt-mapweb-ui-teamo-ft.azurewebsites.net/"")",Chrome 78.0.3904.108,,,2019-12-17 15:25:26,2019-12-17 15:25:34,7.649s,PASSED
+"navigateToUrl(""https://pxl-awe-dvt-mapweb-ui-teamo-ft.azurewebsites.net/"")",Chrome 78.0.3904.108,,,2019-12-17 15:25:34,2019-12-17 15:25:35,1.082s,PASSED
+"click(findTestObject(""Object Repository/MAPsLogin/Page_GTS-PAA/span_""))",Chrome 78.0.3904.108,,,2019-12-17 15:25:35,2019-12-17 15:25:35,0.003s,NOT_RUN
+"click(findTestObject(""Object Repository/MAPsLogin/Page_GTS-PAA/button_Corporate Log In""))",Chrome 78.0.3904.108,,,2019-12-17 15:25:35,2019-12-17 15:25:38,3.121s,PASSED
+"setText(findTestObject(""Object Repository/MAPsLogin/Page_Sign in to your account/input_Sign in_loginfmt""), ""venkateshwara.kayyala@parexelcloud.com"")",Chrome 78.0.3904.108,,,2019-12-17 15:25:38,2019-12-17 15:25:39,1.202s,PASSED
+"click(findTestObject(""Object Repository/MAPsLogin/Page_Sign in to your account/input_Sign in_idSIButton9""))",Chrome 78.0.3904.108,,,2019-12-17 15:25:39,2019-12-17 15:25:40,0.644s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/MAPsLogin/Page_Sign in to your account/input_Enter password_passwd""), ""ZPnMgbgKMNP0xCFbybRQBQ=="")",Chrome 78.0.3904.108,,,2019-12-17 15:25:40,2019-12-17 15:25:43,2.609s,PASSED
+"click(findTestObject(""Object Repository/MAPsLogin/Page_Sign in to your account/input_Sign in_idSIButton9""))",Chrome 78.0.3904.108,,,2019-12-17 15:25:43,2019-12-17 15:25:45,2.809s,PASSED
+"click(findTestObject(""Object Repository/MAPsLogin/Page_Sign in to your account/input_Do this to reduce the number of times_edee07""))",Chrome 78.0.3904.108,,,2019-12-17 15:25:45,2019-12-17 15:25:46,0.928s,PASSED
+"click(findTestObject(""Object Repository/MAPsLogin/Page_Sign in to your account/input_Sign in_idSIButton9""))",Chrome 78.0.3904.108,,,2019-12-17 15:25:46,2019-12-17 15:25:49,2.256s,PASSED
+"click(findTestObject(""Object Repository/MAPsLogin/Page_GTS - PAA - Dashboard/button_Got it""))",Chrome 78.0.3904.108,,,2019-12-17 15:25:49,2019-12-17 15:25:53,4.055s,PASSED
+"verifyElementPresent(findTestObject(""MAPsLogin/Page_GTS - PAA - Dashboard/span_Dashboard""), 0)",Chrome 78.0.3904.108,,,2019-12-17 15:25:53,2019-12-17 15:25:53,0.473s,PASSED
+closeBrowser(),Chrome 78.0.3904.108,,,2019-12-17 15:25:53,2019-12-17 15:25:55,1.460s,PASSED
